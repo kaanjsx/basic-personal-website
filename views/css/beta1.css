@@ -1,0 +1,200 @@
+@import"https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+.head-name {
+    font-weight: 900;
+}
+
+.head-description {
+    max-width: 45rem;
+    font-size: 18px
+}
+
+.head-description-btn {
+    color: var(--primary-btn-color)
+}
+
+.head-description-btn:hover {
+    color: var(--primary-btn-color)
+}
+
+.projects-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.project-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.project {
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+    transition: .2s;
+    margin: 8px 0;
+    transform: scale(1);
+}
+
+.project:hover {
+    transform: scale(1.03);
+    background-color: var(--secondary-backround-color);
+    color: unset
+}
+
+.project-left {
+    display: inline-block;
+    float: left;
+}
+
+.project-right {
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    float: right;
+}
+
+.project-right-img {
+    filter: grayscale(100%);
+    opacity: 0.3;
+    padding: 20px 0px;
+}
+
+.project-right-img-border-radius {
+    border-radius: 999%;
+}
+
+.contacts-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.contact {
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+    transition: .2s;
+    margin: 8px 0;
+    transform: scale(1);
+}
+
+.contact:hover {
+    transform: scale(1.03);
+    background-color: var(--secondary-backround-color);
+    color: unset
+}
+
+.contact-left {
+    display: inline-block;
+    float: left;
+}
+
+.contact-right {
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    float: right;
+}
+
+.contact-right-img {
+    filter: grayscale(100%);
+    opacity: 0.3;
+    padding: 6px 0px;
+}
+
+.contact-right-img-border-radius {
+    border-radius: 999%;
+}
+
+
+#statusContent, #date, #cat {
+    cursor: default
+}
+
+.beta_section {
+    font-size: 15px;
+    background-color: #5555dd;
+    padding: 7px 5px;
+    text-align: center
+}
+
+.spotify_section {
+    font-size: 15px;
+    background-color: var(--spotify_section-background-color);
+    padding: 9px 5px;
+    text-align: center;
+}
+
+.githubs-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.github-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.github {
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+    transition: .2s;
+    margin: 8px 0;
+    transform: scale(1);
+    cursor: pointer
+}
+
+.github:hover {
+    transform: scale(1.03);
+    background-color: var(--secondary-backround-color);
+    color: unset
+}
+
+.github-left {
+    display: inline-block;
+    float: left;
+}
+
+.github-right {
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    float: right;
+}
+
+.github-right-img {
+    filter: grayscale(100%);
+    opacity: 0.3;
+    padding: 20px 0px;
+}
+
+.github-right-img-border-radius {
+    border-radius: 999%;
+}
+
+.navbar-brand-text, .switch-mode-btn, .head-name, .head-description, #statusContent, .projects-title, .project-title, .githubs-title, .contacts-title, .contact-title, .github-title, .footer-text, #modal_shift_key, #modal_k_key, #modal_github_btn, .modal_tech_names, .command-palette-btn, #date, #cat {
+    color: var(--primary-text-color)
+}
+
+.switch-mode-btn:hover, .navbar-brand-text:hover, .footer-text:hover {
+    color: var(--primary-text-color) !important
+}
+
+.github-description, .github-sdescription, .project-sdescription , .project-description, .contact-sdescription {
+    color: var(--secondary-text-color)
+}
